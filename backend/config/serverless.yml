@@ -10,6 +10,7 @@
 #    docs.serverless.com
 #
 # Happy Coding!
+enterpriseDisabled: true
 
 service: demo-cicd
 #service: demo-cicd1
