@@ -13,7 +13,6 @@
 #enterpriseDisabled: true
 
 service: demo-cicd
-#service: demo-cicd
 #service: demo-cicd1
 # app and org for use with dashboard.serverless.com
 app: myapp
