@@ -13,6 +13,8 @@ phases:
       - echo Installed required packages 
   build:
     commands:
+      - echo Loggin into Serverless Framework
+      - serverless login &
       - echo Deploying build
       - serverless deploy
       - echo Finished deploying build Tada
