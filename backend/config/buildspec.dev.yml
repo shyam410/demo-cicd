@@ -8,6 +8,8 @@ phases:
       - echo Installing serverless
       - npm install -g serverless
       - echo Installing backend
+      - cd backend
+      - npm install --silent
       - echo Installed required packages 
   build:
     commands:

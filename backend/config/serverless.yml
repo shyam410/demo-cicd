@@ -12,8 +12,9 @@
 # Happy Coding!
 
 service: demo-cicd
+#service: demo-cicd1
 # app and org for use with dashboard.serverless.com
-app: myapp-demo-cicd
+app: myapp
 org: shyamk
 
 # You can pin your service to only deploy with a specific Serverless version
