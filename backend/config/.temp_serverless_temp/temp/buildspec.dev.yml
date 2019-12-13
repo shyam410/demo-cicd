@@ -13,15 +13,9 @@ phases:
       - echo Installed required packages 
   build:
     commands:
-      - echo Sharing key for Serverless Framework Login
-      - export SERVERLESS_ACCESS_KEY=AKAk4HbKnOjM37NO2rjfpdk5LVvq1TPZrHRkUFGNWxIJ2
-#      - export SERVERLESS_ACCESS_KEY=AKtSoIxh45ijvUiM5AAf7DtEaw5jn1EQhBZv8nMjcQEi6
       - echo Deploying build
-#      - serverless deploy
-      - serverless remove
+      - serverless deploy
       - echo Finished deploying build Tada
-
-
 #  post_build:
 #    commands:
 #      - mkdir -p build
