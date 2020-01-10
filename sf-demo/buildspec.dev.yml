@@ -14,6 +14,7 @@ phases:
   build:
     commands:
       - echo Sharing key for Serverless Framework Login
+      - export SERVERLESS_ACCESS_KEY=AKkJMe31SbNP9oOFhwdCPi5u0G415xiQRsiFMts7lokil
 #      - export SERVERLESS_ACCESS_KEY=AKtSoIxh45ijvUiM5AAf7DtEaw5jn1EQhBZv8nMjcQEi6
       - echo Deploying build
       - serverless deploy
