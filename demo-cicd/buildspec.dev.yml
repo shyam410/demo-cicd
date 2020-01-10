@@ -1,0 +1,21 @@
+version: 0.2
+  
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - echo Installing serverless
+      - npm install -g serverless
+      - echo Installing backend
+      - cd backend
+      - npm install --silent
+      - echo Installed required packages
+  build:
+    commands:
+      - echo Sharing key for Serverless Framework Login
+      - export SERVERLESS_ACCESS_KEY=AKtSoIxh45ijvUiM5AAf7DtEaw5jn1EQhBZv8nMjcQEi6
+      - echo Deploying build
+      - serverless deploy
+#      - serverless remove
+      - echo Finished deploying build
