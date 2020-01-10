@@ -8,7 +8,7 @@ phases:
       - echo Installing serverless
       - npm install -g serverless
       - echo Installing backend
-      - cd demo-cicd/demo-cicd
+      - cd demo-cicd/
       - npm install --silent
       - echo Installed required packages
   build:
@@ -16,6 +16,6 @@ phases:
       - echo Sharing key for Serverless Framework Login
       - export SERVERLESS_ACCESS_KEY=AKtSoIxh45ijvUiM5AAf7DtEaw5jn1EQhBZv8nMjcQEi6
       - echo Deploying build
-      - serverless deploy
+      - sls deploy
 #      - serverless remove
       - echo Finished deploying build
